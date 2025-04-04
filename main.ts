@@ -12,7 +12,7 @@ namespace IR {
         SONY
     }
     let tempHandler: Action;
-    let irLed = AnalogPin.C16; // P16 -> C16 Änderung für Calliope Mini
+    let irLed = AnalogPin.P16; // P16 -> C16 Änderung für Calliope Mini
     const pwmPeriod = 26;
     pins.analogWritePin(irLed, 0);
     pins.analogSetPeriod(irLed, pwmPeriod);
@@ -23,7 +23,7 @@ namespace IR {
     let first = true
     let rec_Type = ""
     let messageStr = ""
-    let recPin = DigitalPin.C17 // P8 -> C17 Änderung für Calliope Mini
+    let recPin = DigitalPin.P17 // P8 -> C17 Änderung für Calliope Mini
     let thereIsHandler = false
     arr = []
 
