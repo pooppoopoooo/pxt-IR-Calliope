@@ -23,7 +23,7 @@ namespace IR {
     let first = true
     let rec_Type = ""
     let messageStr = ""
-    let recPin = DigitalPin.P17 // P8 -> C17 Änderung für Calliope Mini
+    let recPin = DigitalPin.P8 // P8 -> C17 Änderung für Calliope Mini
     let thereIsHandler = false
     arr = []
 
